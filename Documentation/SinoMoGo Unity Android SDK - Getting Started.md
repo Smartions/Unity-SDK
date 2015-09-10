@@ -1,4 +1,4 @@
-![sinomogo](./Documentation/imgs/logo.jpg "sinomogo")
+![sinomogo](../Documentation/imgs/logo.jpg "sinomogo")
 # <a id="title"></a>SINOMOGO SDK: GETTING STARTED GUIDE
 ## SDK INTEGRATION & API IMPLEMENTATION
 Unity for Android "Amber Rat" Release
