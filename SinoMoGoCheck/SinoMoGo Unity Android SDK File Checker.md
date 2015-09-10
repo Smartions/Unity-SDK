@@ -34,7 +34,7 @@ _Fig 3._
 Open terminal and execute the following command with appropriate user permission:
    
   ```xml
-  sh "**./<shellPath>/check.sh**" "**./<projectPath>**".
+  sh ./<shellPath>/check.sh ./<projectPath>
   ``` 
 
 "**&lt;shellPath&gt;**" must be the location where `check.sh` resides and "**&lt;projectPath&gt;**" should be your game or app's project path.
