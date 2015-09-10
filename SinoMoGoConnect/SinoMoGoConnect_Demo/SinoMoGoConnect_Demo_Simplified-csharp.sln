@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{719FDD65-019F-BD7D-137C-F0FDE52F8650}") = "SinoMoGoConnect_Demo_Simplified", "Assembly-CSharp-vs.csproj", "{2E54B57B-A8B3-111F-F5CB-20FCC5D45B21}"
+EndProject
+Project("{719FDD65-019F-BD7D-137C-F0FDE52F8650}") = "SinoMoGoConnect_Demo_Simplified", "Assembly-CSharp-Editor-vs.csproj", "{013694A3-35D7-D0CC-E43A-8EA5CD48E02F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E54B57B-A8B3-111F-F5CB-20FCC5D45B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E54B57B-A8B3-111F-F5CB-20FCC5D45B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E54B57B-A8B3-111F-F5CB-20FCC5D45B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E54B57B-A8B3-111F-F5CB-20FCC5D45B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013694A3-35D7-D0CC-E43A-8EA5CD48E02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013694A3-35D7-D0CC-E43A-8EA5CD48E02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013694A3-35D7-D0CC-E43A-8EA5CD48E02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013694A3-35D7-D0CC-E43A-8EA5CD48E02F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+								GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

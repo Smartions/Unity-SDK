@@ -1,0 +1,108 @@
+SinoMoGoBaseProjectForUnity
+	|-->Assets
+		|-->Plugins
+			|-->Android
+				|-->SinoMoGoPlugin.jar
+				|-->liblthj_unipaybusiness20140213.so
+				|-->libmegjb.so
+				|-->libsinomogo.so
+				|-->assets
+					|-->01_sinomogo_base.jar
+					|-->01_sinomogo_pay.jar
+					|-->01_sinomogo_connect.jar
+					|-->01_sinomogo_pay_alipay.jar
+					|-->01_sinomogo_pay_upomp.jar
+					|-->01_sinomogo_unityplugin.jar
+					|-->01_sinomogo_libs.xml
+					|-->01_sinomogo_res.zip
+					|-->applicationcontext.ioc.xml
+					|-->sinomogo_web.xml
+					|-->customer.bin
+					|-->SinoMoGo.bin
+					|-->sinomogopay_resource
+						|-->image
+							|-->alipayclient_common.png
+							|-->alipayclient_buy.png
+							|-->btn_360_login.png
+							|-->btn_back.png
+							|-->btn_buy_icon.png
+							|-->btn_close.png
+                            |-->btn_egame_concat_us_common.png
+                            |-->btn_egame_more_game_common.png
+							|-->chinamobile_common.png
+							|-->chinamobile_buy.png
+                            |-->cmg_common.png
+                            |-->cmg_buy.png
+							|-->edittext_bg.9.png
+                            |-->egame_common.png
+                            |-->egame_buy.png
+                            |-->egame_logo.png
+							|-->error.png
+							|-->info.png
+							|-->exiticon.png
+							|-->loadingbg.png
+							|-->logo.png
+							|-->mail.png
+							|-->scrolldown.png
+							|-->scrollup.png
+							|-->scrollemail.png
+							|-->success.png
+                            |-->unionpay_common.png
+                            |-->unionpay_buy.png
+					|-->sinomogoconnect_resource
+						|-->image
+							|-->btn_back.png
+							|-->btn_close.png
+							|-->edittext_bg.9.png
+							|-->error.png
+							|-->friend_common.png
+							|-->group_common.png
+							|-->info.png
+							|-->loading.png
+							|-->logo.png
+							|-->mail.png
+							|-->renren_common.png
+							|-->scrolldown.png
+							|-->scrollup.png
+							|-->sina_common.png
+							|-->scrollemail.png
+							|-->success.png
+							|-->tencent_common.png
+				|-->res
+					|-->drawable
+						|-->upomp_lthj_*.xml ( 14 files )
+						|-->egame_sdk_*.xml ( 5 files )
+					|-->drawable-hdpi
+						|-->upomp_lthj_*.png ( 50 files )
+						|-->egame_sdk_*.png ( 19 files )
+						|-->gc_*.png ( 51 files )
+					|-->drawable-ldpi
+						|-->upomp_lthj_*.png ( 3 files )
+					|-->drawable-mdpi
+						|-->upomp_lthj_*.png ( 3 files )
+					|-->layout
+						|-->upomp_lthj_*.xml ( 41 files )
+						|-->egame_sdk_fee_layout.xml
+					|-->layout-land
+                        |-->upomp_lthj_splash.xml
+					|-->raw
+						|-->upomp_lthj_*.xml ( 4 files )
+						|-->opening_sound.mp3
+					|-->values
+						|-->upomp_lthj_*.xml ( 5 files )
+						|-->g_color.xml
+						|-->g_strings.xml
+			|-->SinoMoGo
+				|-->PayWay.cs
+				|-->SinoMoGoJson.cs
+				|-->SinoMoGoPay.cs
+				|-->SinomogoPayManager.cs
+				|-->SinoMoGoPayManager.prefab
+				|-->SinoMoGoCountly.cs
+				|-->SinoMoGoMiniJSON.cs
+				|-->ShareType.cs
+				|-->SNSType.cs
+				|-->SinoMoGoConnect.cs
+				|-->SinomogoConnectManager.cs
+				|-->SinoMoGoConnectManager.prefab
+

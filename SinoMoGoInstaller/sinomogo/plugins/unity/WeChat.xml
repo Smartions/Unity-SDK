@@ -1,0 +1,8 @@
+<application>
+	<!-- Wechat -->
+	<activity android:name="{{MainPackage}}.wxapi.WXEntryActivity"
+		  android:exported="true"
+	android:launchMode="singleTask" >
+	</activity>
+	<!-- Wechat -->
+</application>

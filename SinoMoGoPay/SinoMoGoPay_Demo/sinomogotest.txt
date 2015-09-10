@@ -1,0 +1,3 @@
+sinomogotest.keystore
+
+Password:sinomogotest

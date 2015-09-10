@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<sinomogo_libs>
+    <lib name="01_sinomogo_base.jar"></lib>
+	<lib name="01_sinomogo_connect.jar"></lib>
+	<lib name="01_sinomogo_unityplugin.jar"></lib>
+</sinomogo_libs>

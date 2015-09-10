@@ -1,0 +1,9 @@
+<application>
+	<!-- SinoMoGo Analytics -->
+	<service android:name="com.smartions.sinomogo.countly.OpenUDID_service">
+		<intent-filter>
+			<action android:name="org.openudid.GETUDID"/>
+		</intent-filter>
+	</service>
+	<!-- SinoMoGo Analytics -->
+</application>

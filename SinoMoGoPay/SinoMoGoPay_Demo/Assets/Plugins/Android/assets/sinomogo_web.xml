@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdk
+    sinomogo_charge="smartcharge.smartions.com"
+    sinomogo_rank="smartrank.smartions.com"
+	sinomogo_connect="smartconnect.smartions.com"
+	sinomogo_countly="dashboard.smartions.com"
+	sinomogo_email="www.smartions.com"/>

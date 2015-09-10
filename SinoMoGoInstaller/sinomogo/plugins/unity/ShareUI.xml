@@ -1,0 +1,20 @@
+<application>
+	<!-- ShareUI-->
+	<activity android:name="com.smartions.sinomogo.connect.openapi.ShareUI" android:configChanges="orientation|keyboardHidden|fontScale|screenSize"   android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+		android:launchMode="singleTask">
+	</activity>
+	<activity android:name="com.smartions.sinomogo.connect.openapi.ShareActivity"
+			 android:configChanges="orientation|screenSize"
+		   android:launchMode="singleTask">
+	</activity>
+	<!-- ShareUI-->
+	
+	<!-- ShareResultIntentReceiver-->
+	<receiver android:name="com.smartions.sinomogo.connect.plugin.ShareResultIntentReceiver">
+	<intent-filter>
+	   <action android:name="{{MainPackage}}.android.intent.action.EDIT.SinoMoGoConnect"/>
+	</intent-filter>
+	</receiver>
+	<!-- ShareResultIntentReceiver-->
+
+</application>

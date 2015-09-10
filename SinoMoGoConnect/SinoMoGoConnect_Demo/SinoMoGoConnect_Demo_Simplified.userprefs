@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\Android\AndroidManifest.xml">
+    <Files>
+      <File FileName="Assets\Scripts\GUIStateManager.cs" Line="60" Column="41" />
+      <File FileName="Assets\Scripts\SinoMoGo\SinomogoConnectManager.cs" Line="33" Column="3" />
+      <File FileName="Assets\Plugins\Android\AndroidManifest.xml" Line="8" Column="29" />
+      <File FileName="Assets\Scripts\SinoMoGo\SinoMoGoConnect.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

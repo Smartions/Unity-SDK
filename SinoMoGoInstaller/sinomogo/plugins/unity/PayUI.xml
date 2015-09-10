@@ -1,0 +1,19 @@
+<application>
+	<!-- PayUI -->
+	<activity
+	android:name="com.smartions.sinomogo.pay.openapi.PayUI"
+	android:configChanges="orientation|keyboardHidden|fontScale|screenSize"
+	android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+	android:launchMode="singleTask">
+	</activity>
+	<!-- PayUI -->
+
+	<!-- PayResultIntentReceiver -->
+	<receiver android:name="com.smartions.sinomogo.pay.plugin.PayResultIntentReceiver" >
+		<intent-filter>
+			<action android:name="{{MainPackage}}.android.intent.action.EDIT.SinoMoGoPay"/>
+		</intent-filter>
+	</receiver>
+	<!-- PayResultIntentReceiver -->
+
+</application>

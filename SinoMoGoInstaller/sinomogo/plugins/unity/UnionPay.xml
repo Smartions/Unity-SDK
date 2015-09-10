@@ -1,0 +1,31 @@
+<application>
+	<!-- UnionPay -->
+	<activity
+	android:name="com.unionpay.upomp.lthj.plugin.ui.SplashActivity">
+		<intent-filter>
+		  <action android:name="com.unionpay.upomp.lthj.android.plugin.init.test" />
+			<category android:name="android.intent.category.DEFAULT" />
+		</intent-filter>
+	 </activity>
+	<activity android:name="com.unionpay.upomp.lthj.plugin.ui.IndexActivityGroup">
+		<intent-filter>
+		  <action android:name="com.unionpay.upomp.lthj.android.plugin.index.test" />
+			<category android:name="android.intent.category.DEFAULT" />
+		</intent-filter>
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.HomeActivity">
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.PayActivity">
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.AccountActivity">
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.BankCardInfoActivity">
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.SupportCardActivity">
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.UserProtocolActivity">
+	 </activity>
+	 <activity android:name="com.unionpay.upomp.lthj.plugin.ui.AboutActivity">
+	</activity>
+	<!--UnionPay-->
+</application>
