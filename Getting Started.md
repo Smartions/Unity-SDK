@@ -270,7 +270,7 @@ The `snsType` parameter in the code above can be used to target specific Chinese
 |    `SNSType.FRIEND`        |    Sharing with a particular WeChat friend or friend group chat.                       |
 |    `SNSType.GROUP`          |   Sharing on WeChat via "WeChat Moments" (similar to Facebook wall).    |
 
-> _**Note**: Unless otherwise directed by the Smartions team in your game or app Guidance Report, `SNSType.ALL` should be used in all sharing points within your game or app to enable the user to select their prefered social network._ .
+> _**Note**: Unless otherwise directed by the Smartions team in your game or app Guidance Report, `SNSType.ALL` should be used in all sharing points within your game or app to enable the user to select their prefered social network._
 
 Sample Code:
 
