@@ -85,7 +85,7 @@ The SinoMoGo installer performs the following actions:
 To double-check that the install completed successfully, you can run the "SinoMoGoCheckFileTool.exe" tool found in the "SinoMoGoCheck" folder. This verifies the AndroidManifest.xml updates and that the necessary resources have been copied.
 For further verification that the file copy is complete you can refer to [FileList.txt](./Documentation/FileList.txt).
 
-> _**Note:** If the unlikely event that the installer fails or resources have not been copied correctly during installation, please refer to the [SinoMoGo Unity Android SDK - Manual Setup] (./Troubleshooting/SinoMoGo%20Unity%20Android%20SDK%20-%20Manual%20Setup.md) document for SDK manual setup steps._
+> _**Note:** If the unlikely event that the installer fails or resources have not been copied correctly during installation, please refer to the [SinoMoGo Unity Android SDK - Manual Setup] (./Documentation/Troubleshooting/SinoMoGo%20Unity%20Android%20SDK%20-%20Manual%20Setup.md) document for SDK manual setup steps._
 
 
 ###4. SINOMOGO PAY API USAGE
