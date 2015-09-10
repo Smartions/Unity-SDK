@@ -32,7 +32,7 @@ Please review the following chart (_Fig 1._) to farmiliarize yourself with the i
 ---
 ####3.1. Run the SinoMoGo SDK Installer
 
-Download this complete SDK package by navigating [here] (.\) and selecting the Github "**Download Zip**" option.
+Download this complete SDK package by navigating [here] (./) and selecting the Github "**Download Zip**" option.
 
 > _**IMPORTANT!** BEFORE running the "**SinoMoGoInstaller**", please make sure that your Unity project contains the **AndroidManifest.xml** under the path "**<your project>\Assets\Plugins\Android\**", if not you can copy the **AndroidManifest.xml** from "**<your project>\Temp\StagingArea\AndroidManifest.xml**" AFTER first building the Android project in Unity (See Unity [Android Build Process] (http://docs.unity3d.com/Manual/android-BuildProcess.html) documentation)._ 
 
