@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding="UTF-8"?>
 <manifest>
 	<!--SinoMoGo Permissions -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

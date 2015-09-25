@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding="UTF-8"?>
 <application>
 	<!-- PayUI -->
 	<activity
@@ -7,11 +8,10 @@
 	android:launchMode="singleTask">
 	</activity>
 	<!-- PayUI -->
-
 	<!-- PayResultIntentReceiver -->
 	<receiver android:name="com.smartions.sinomogo.pay.plugin.PayResultIntentReceiver" >
 		<intent-filter>
-			<action android:name="{{MainPackage}}.android.intent.action.EDIT.SinoMoGoPay"/>
+			<action android:name="sinomogo_MainPackage.android.intent.action.EDIT.SinoMoGoPay"/>
 		</intent-filter>
 	</receiver>
 	<!-- PayResultIntentReceiver -->

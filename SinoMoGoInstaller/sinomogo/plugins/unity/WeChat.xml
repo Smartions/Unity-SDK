@@ -1,6 +1,7 @@
+<?xml version='1.0' encoding="UTF-8"?>
 <application>
 	<!-- Wechat -->
-	<activity android:name="{{MainPackage}}.wxapi.WXEntryActivity"
+	<activity android:name="sinomogo_MainPackage.wxapi.WXEntryActivity"
 		  android:exported="true"
 	android:launchMode="singleTask" >
 	</activity>
