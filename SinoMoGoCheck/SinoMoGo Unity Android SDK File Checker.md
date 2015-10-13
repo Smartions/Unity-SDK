@@ -32,13 +32,21 @@ _Fig 3._
  ![Fig check.sh ](../Documentation/imgs/checker03.png) 
 
 
-Open terminal and execute the following command with appropriate user permission:
+Open terminal and if your version of Unity3D is 5.x please execute the following command with appropriate user permission:
    
   ```xml
   sh "**./<shellPath>/check.sh**" "**./<projectPath>**".
   ``` 
 
-"**&lt;shellPath&gt;**" must be the location where `check.sh` resides and "**&lt;projectPath&gt;**" should be your game or app's project path.
+If your version of Unity3D is 3.x or 4.x please use the following command:
+   
+  ```xml
+  sh "**./<shellPath>/check4.sh**" "**./<projectPath>**".
+  ``` 
+
+
+
+"**&lt;shellPath&gt;**" must be the location where `check.sh` or `check4.sh` resides and "**&lt;projectPath&gt;**" should be your game or app's project path.
 
 - A successful pass will display the "**Configuration OK!**" and "**File OK!**" messages.
-- In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt] (../Documentation/FileList.txt) and amend any errors by copying the missing files to their correct location.
+- In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt(Unity3D 3.x, Unity3D 4.x)] (../Documentation/FileList.txt) or [FileList.txt(Unity3D 5.x)] (../Documentation/FileList.txt) and amend any errors by copying the missing files to their correct location.
