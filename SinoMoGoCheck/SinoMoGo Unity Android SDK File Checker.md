@@ -16,11 +16,12 @@ The SinoMoGo SDK File Checker tool interface ( _Fig 2._ ):
  _Fig 2._ 
 
  ![Fig SinoMoGoCheckFileTool ](../Documentation/imgs/checker02.png) 
-
+ 
+- Select your version of Unity3D which your project used.
 - Click the "**Browse**" button and select your project folder (which already has the SinoMoGo SDK integrated).
 - Click the "**Start**" button to start the checking process.
 - A successful pass will display the message "**Checking completed, no errors found**".
-- In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt] (../Documentation/FileList.txt) and amend any errors by copying the missing files to their correct location.
+- In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt (Unity3D 3.x, Unity3D 4.x)] (../Documentation/FileList.txt) or [FileList.txt(Unity3D 5.x)] (../Documentation/FileList5.txt) and amend any errors by copying the missing files to their correct location.
 
 ###Linux
 
@@ -34,7 +35,7 @@ _Fig 3._
 Open terminal and execute the following command with appropriate user permission:
    
   ```xml
-  sh ./<shellPath>/check.sh ./<projectPath>
+  sh "**./<shellPath>/check.sh**" "**./<projectPath>**".
   ``` 
 
 "**&lt;shellPath&gt;**" must be the location where `check.sh` resides and "**&lt;projectPath&gt;**" should be your game or app's project path.
