@@ -40,7 +40,7 @@ You can find the required resources inside \SinoMoGoInstaller\sinomogo\SinoMoGoS
 
 **SDK Dir**: \SinoMoGoInstaller\sinomogo\SinoMoGoSDK\
 
-If your version of Unity3D is 3.x or 4.x, you should do as following: 
+If your version of Unity3D is 3.x or 4.x, you should do as follows: 
 
 |    Copy from SDK Dir          |                          Copy to Project Dir                               |
 |-----------------------|-----------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ If your version of Unity3D is 3.x or 4.x, you should do as following:
 |    res\       | &lt;your project&gt;\Assets\Plugins\Android\res\          |                                       |
 
 
-If your version of Unity3D is 5.x, you should do as following: 
+If your version of Unity3D is 5.x, you should do as follows: 
 
 |    Copy from SDK Dir          |                          Copy to Project Dir                               |
 |-----------------------|-----------------------------------------------------------------------------------------|
