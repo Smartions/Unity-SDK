@@ -52,7 +52,7 @@ The SinoMoGo installer performs the following actions:
   _Fig 3._
 
   ![sinomogo.exe](../Documentation/imgs/run_installer02.png "SDK Installer")
- * Click "Install" to run the installer. 
+ * Select your version of Unity3D and click "Install" to run the installer. 
 
 
 

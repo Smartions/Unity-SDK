@@ -40,6 +40,8 @@ You can find the required resources inside \SinoMoGoInstaller\sinomogo\SinoMoGoS
 
 **SDK Dir**: \SinoMoGoInstaller\sinomogo\SinoMoGoSDK\
 
+If your version of Unity3D is 3.x or 4.x, you should do as follows: 
+
 |    Copy from SDK Dir          |                          Copy to Project Dir                               |
 |-----------------------|-----------------------------------------------------------------------------------------|
 |    assets\     |    &lt;your project&gt;\Assets\Plugins\Android\assets\                   |
@@ -47,7 +49,18 @@ You can find the required resources inside \SinoMoGoInstaller\sinomogo\SinoMoGoS
 |    so\       | &lt;your project&gt;\Assets\Plugins\Android\           |                                       |
 |    res\       | &lt;your project&gt;\Assets\Plugins\Android\res\          |                                       |
 
-Once you have copied these files and directories you should have the same directory tree strucutre and file content as listed in the [FileList.txt] (../FileList.txt).
+
+If your version of Unity3D is 5.x, you should do as follows: 
+
+|    Copy from SDK Dir          |                          Copy to Project Dir                               |
+|-----------------------|-----------------------------------------------------------------------------------------|
+|    assets\     |    &lt;your project&gt;\Assets\Plugins\Android\assets\                   |
+|    script\SinoMoGo\    |     &lt;your project&gt;\Assets\Plugins\SinoMoGo\                   |
+|    so\       | &lt;your project&gt;\Assets\Plugins\Android\           |                                       |
+|    other\       | &lt;your project&gt;\Assets\Plugins\Android\          |                                       |
+
+
+Once you have copied these files and directories you should have the same directory tree structure and file content as listed in the [FileList.txt(for Unity3D 3.x and 4.x)] (../FileList.txt) and [FileList.txt(for Unity3D 5.x)] (../FileList_5.txt).
 
 ####3.2. Configure your Unity Project
 

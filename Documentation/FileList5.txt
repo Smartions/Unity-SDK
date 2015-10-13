@@ -1,4 +1,4 @@
-SinoMoGo Base Project For Unity3D 3.x and 4.x
+SinoMoGo Base Project For Unity3D 5.x
 	|-->Assets
 		|-->Plugins
 			|-->Android
@@ -6,6 +6,7 @@ SinoMoGo Base Project For Unity3D 3.x and 4.x
 				|-->liblthj_unipaybusiness20140213.so
 				|-->libmegjb.so
 				|-->libsinomogo.so
+				|-->SinoMoGoLib.aar				
 				|-->assets
 					|-->01_sinomogo_base.jar
 					|-->01_sinomogo_pay.jar
@@ -68,30 +69,6 @@ SinoMoGo Base Project For Unity3D 3.x and 4.x
 							|-->scrollemail.png
 							|-->success.png
 							|-->tencent_common.png
-				|-->res
-					|-->drawable
-						|-->upomp_lthj_*.xml ( 14 files )
-						|-->egame_sdk_*.xml ( 5 files )
-					|-->drawable-hdpi
-						|-->upomp_lthj_*.png ( 50 files )
-						|-->egame_sdk_*.png ( 19 files )
-						|-->gc_*.png ( 51 files )
-					|-->drawable-ldpi
-						|-->upomp_lthj_*.png ( 3 files )
-					|-->drawable-mdpi
-						|-->upomp_lthj_*.png ( 3 files )
-					|-->layout
-						|-->upomp_lthj_*.xml ( 41 files )
-						|-->egame_sdk_fee_layout.xml
-					|-->layout-land
-                        |-->upomp_lthj_splash.xml
-					|-->raw
-						|-->upomp_lthj_*.xml ( 4 files )
-						|-->opening_sound.mp3
-					|-->values
-						|-->upomp_lthj_*.xml ( 5 files )
-						|-->g_color.xml
-						|-->g_strings.xml
 			|-->SinoMoGo
 				|-->PayWay.cs
 				|-->SinoMoGoJson.cs
@@ -105,4 +82,3 @@ SinoMoGo Base Project For Unity3D 3.x and 4.x
 				|-->SinoMoGoConnect.cs
 				|-->SinomogoConnectManager.cs
 				|-->SinoMoGoConnectManager.prefab
-
