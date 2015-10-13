@@ -1,4 +1,4 @@
-SinoMoGoBaseProjectForUnity
+SinoMoGo Base Project For Unity3D 3.x and 4.x
 	|-->Assets
 		|-->Plugins
 			|-->Android
