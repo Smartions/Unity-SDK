@@ -49,4 +49,4 @@ If your version of Unity3D is 3.x or 4.x please use the following command:
 "**&lt;shellPath&gt;**" must be the location where `check.sh` or `check4.sh` resides and "**&lt;projectPath&gt;**" should be your game or app's project path.
 
 - A successful pass will display the "**Configuration OK!**" and "**File OK!**" messages.
-- In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt(Unity3D 3.x, Unity3D 4.x)] (../Documentation/FileList.txt) or [FileList.txt(Unity3D 5.x)] (../Documentation/FileList.txt) and amend any errors by copying the missing files to their correct location.
+- In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt(Unity3D 3.x, Unity3D 4.x)] (../Documentation/FileList.txt) or [FileList.txt(Unity3D 5.x)] (../Documentation/FileList5.txt) and amend any errors by copying the missing files to their correct location.
