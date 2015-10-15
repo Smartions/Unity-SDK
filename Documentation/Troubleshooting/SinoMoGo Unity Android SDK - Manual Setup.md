@@ -64,7 +64,7 @@ Once you have copied these files and directories you should have the same direct
 
 ####3.2. Configure your Unity Project
 
-**3.2.1.**	Add your game or app's Application class name (e.g. `SinoMoGoApplication` as follows) under the `<application>` tag of the "**AndroidManifest.xml**" file.
+**3.2.1.**	If the item android:name already exists in the <application> tag of the "AndroidManifest.xml" file, replace its value with com.smartions.sinomogo.app.SinoMoGoApplication. If not, add android:name="com.smartions.sinomogo.app.SinoMoGoApplication" into the <application> tag.
 
   ```xml
 	<application android:name="com.smartions.sinomogo.app.SinoMoGoApplication"
